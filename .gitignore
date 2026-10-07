@@ -1,6 +1,12 @@
 venv/
 .venv/
+
 __pycache__/
 *.pyc
+
+.pytest_cache/
+
 .env
-models/*.gguf
+
+models/
+*.gguf
