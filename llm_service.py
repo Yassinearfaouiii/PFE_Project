@@ -95,5 +95,10 @@ def evaluate_candidate(cv_text, motivation_text, subject_title, subject_descript
             "raw_output": raw
         }
     except Exception as e:
-        # Gestion des erreurs de calcul avec renvoi d'un statut en attente
-        return {"decision": "pending", "reason": str(e), "matching_skills": [], "missing_skills": []}
+       return {
+        "decision": "pending",
+        "reason": str(e),
+        "matching_skills": [],
+        "missing_skills": [],
+        "raw_output": ""
+    }

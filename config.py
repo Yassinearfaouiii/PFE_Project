@@ -1,5 +1,5 @@
 DB_CONFIG = {
-    "host": "localhost",
+    "host": "host.docker.internal",
     "port": 5432,
     "dbname": "pfe_platform",
     "user": "postgres",
